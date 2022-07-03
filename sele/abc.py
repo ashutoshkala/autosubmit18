@@ -23,3 +23,5 @@ solution = input("Paste Solution ")
 code = browser.find_element(By.ID, 'sourceCodeTextarea')
 code.send_keys(solution)
 browser.find_element(By.CLASS_NAME, 'submit').click()
+
+print("Submitted Succesfully")
